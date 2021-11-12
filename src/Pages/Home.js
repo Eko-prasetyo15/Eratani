@@ -20,10 +20,10 @@ const Home = () => {
                                 <CardBody>
 
                                     <img width="100%" src={item.image} alt="" />
-                                    <span>
-                                        Date : {item.date}
-                                    </span>
-                                    <CardTitle tag="h5">
+                                    <small style={{ color: '#8c8c8c'}}>
+                                        {item.date}
+                                    </small>
+                                    <CardTitle className="mt-3 mb-3" tag="h3">
                                         {item.title}
                                     </CardTitle>
                                     <span>Oleh : Eratani Team</span>
